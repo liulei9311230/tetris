@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+   <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+	 <h1 id="shijian">分数 ：</h1>
+	 <div class="anniu">
+	    <input type="button" value ="开始游戏" id="start" />
+	    <input type="button" value ="停止游戏" id="stop" />
+	  </div>
+	<div class="wrap">
+		<table id="main"></table>
+		<h1 class="nextblock">下一个：</h1>
+		<table id="previsionTable" class="prevision">
+			<tr><td></td><td></td><td></td><td></td></tr>
+			<tr><td></td><td></td><td></td><td></td></tr>
+			<tr><td></td><td></td><td></td><td></td></tr>
+			<tr><td></td><td></td><td></td><td></td></tr>
+		</table>
+
+		<span id="frameBox" class="frameBox">帧编号：</span>
+	</div>
+     
+     <!-- 背景动图 -->
+     <div class="qiu" id='qiu1'></div>
+	<div class="qiu" id='qiu2'></div>
+	<div class="qiu" id='qiu3'></div>
+
+	<script type="text/javascript" src="js/underscore.js"></script>
+	<script type="text/javascript" src="js/BLOCKTYPE.js"></script>
+	<script type="text/javascript" src="js/Map.js"></script>
+	<script type="text/javascript" src="js/Block.js"></script>
+	<script type="text/javascript" src="js/Prevision.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
